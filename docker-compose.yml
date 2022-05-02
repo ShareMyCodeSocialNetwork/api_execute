@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+
+  excutejava:
+    build: api_execute_java/.
+    ports:
+      - "3002:3002"
+
+  excutejs:
+    build: api_execute_js/.
+    ports:
+      - "3001:3001"
+
+  excutepython:
+    build: api_execute_python/.
+    ports:
+      - "3000:3000"
+
+
