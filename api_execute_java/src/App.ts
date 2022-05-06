@@ -16,7 +16,7 @@ const apiRoutes = [
 const app = express();
 app.use(bodyParser.json(), cors());
 
-const port = 3002;
+const port = 3003;
 app.listen(port, "0.0.0.0", () => {
     console.log(`Listening on port ${port}`);
 });
